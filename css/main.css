@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid-container{
@@ -37,11 +38,43 @@
     padding: 20px;
 }
 
+.img-fluid{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+
 .title{
     background-color: var(--dark);
     color: var(--white);
     text-align: center;
     padding: 20px;
+}
+
+.border-top-right-bottom{
+    border-top: 1px solid var(--light);
+    border-right: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
+}
+
+#escondido{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid var(--dark);
+    text-align: center;
+    background-color: var(--light);
+}
+
+.aplicar-none{
+    z-index: -1;
 }
 
 /********************************** stand by **********************************/
@@ -52,12 +85,6 @@
 
 .border-full{
     border: 1px solid var(--dark);
-}
-
-.border-top-right-bottom{
-    border-top: 1px solid var(--light);
-    border-right: 1px solid var(--light);
-    border-bottom: 1px solid var(--light);
 }
 
 /********************************** stand by **********************************/
