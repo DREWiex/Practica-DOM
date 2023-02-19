@@ -3,7 +3,7 @@
     /* ------- colors -------*/
     --dark: #1C2833;
     --white: #fff;
-
+    --light: #d6e2eca2;
 }
 
 *{
@@ -55,9 +55,9 @@
 }
 
 .border-top-right-bottom{
-    border-top: 1px solid var(--dark);
-    border-right: 1px solid var(--dark);
-    border-bottom: 1px solid var(--dark);
+    border-top: 1px solid var(--light);
+    border-right: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
 }
 
 /********************************** stand by **********************************/
